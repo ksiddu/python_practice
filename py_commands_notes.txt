@@ -1,0 +1,119 @@
+https://python.land/virtual-environments/virtualenv
+
+
+python -m venv venv 
+
+source venv/bin/activate
+
+deactivate
+
+rm -r venv
+
+https://stackoverflow.com/questions/30464980/how-to-check-all-versions-of-python-installed-on-osx-and-centos
+
+https://dev.to/malwarebo/how-to-set-python3-as-a-default-python-version-on-mac-4jjf
+
+https://www.programiz.com/python-programming/methods/list/sort
+
+https://www.programiz.com/python-programming
+
+https://www.programiz.com/python-programming/methods/list/copy
+
+https://www.programiz.com/python-programming/shallow-deep-copy
+
+
+
+pip install pytest
+
+
+
+pip install --index-url=https://pypi.python.org/simple/  selenium
+
+pip install --index-url=https://pypi.python.org/simple/  webdriver-manager
+
+pip install --index-url=https://pypi.python.org/simple/  pytest
+
+pip install --index-url=https://pypi.python.org/simple/  pytest-html
+
+pip install --index-url=https://pypi.python.org/simple/  pytest-xdist
+
+
+Requests Blogs:
+
+https://www.machinelearningplus.com/python/requests-in-python/
+
+SAMPLE APP:
+
+http://httpbin.org/
+
+
+https://www.ontestautomation.com/writing-tests-for-restful-apis-in-python-using-requests-part-1-basic-tests/
+
+
+SAMPLE APP:
+
+http://api.zippopotam.us
+
+
+
+SELENIUM PYTHON BLOG
+
+https://www.lambdatest.com/blog/page-object-model-in-selenium-python/
+
+
+
+https://www.geeksforgeeks.org/selenium-python-tutorial/
+
+
+/Users/siddu.kampli/PycharmProjects/selenium_python
+
+GitHUB
+
+https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line
+
+
+<a class="nav-link" href="/angularpractice/shop">Shop</a>
+
+https://rahulshettyacademy.com/angularpractice/shop
+
+
+
+
+
+#self.driver.find_element_by_css_selector("a[class*='btn-primary']").click()
+
+self.driver.find_element_by_class_name(".nav-link.btn.btn-primary").click()
+
+Reports links:
+
+
+http://localhost:63342/selenium_python/MyHtmlReport.html?_ijt=kmvhud52crogtf72sa70gg0lfb
+
+http://localhost:63342/selenium_python/MyReport.xml?_ijt=kmvhud52crogtf72sa70gg0lfb
+
+
+git rm --cached -r __pycache__/
+
+PYTEST COMMANDS:
+
+pip install pytest
+
+pytest -rA --junitxml="index.xml"
+
+pytest --html="index1.html" 
+
+
+Markers
+
+pytest -rA test_markersdemo.py -m smoke
+
+pytest -rA test_markersdemo.py -m regression
+
+
+pytest -rA test_markersdemo.py -m "not regression"
+
+
+pytest -rA test_markersdemo.py -m "smoke or regression"
+
+
+pip install --index-url=https://pypi.python.org/simple/ nose
